@@ -1,5 +1,5 @@
 import PrayerCard from "./PrayerCard";
-import fajr from "../assets/images/Fajr.jpg";
+import fajr from "../assets/images/fajr.jpg";
 import dohor from "../assets/images/dohor.jpg";
 import alasr from "../assets/images/alasr.jpg";
 import maghrib from "../assets/images/maghrib.jpg";
