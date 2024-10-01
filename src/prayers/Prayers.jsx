@@ -11,7 +11,7 @@ const Prayers = () => {
   return (
     <div className="pt-[20px]">
       <div className="Maycontainer ">
-        <div className="w-[100%] grid grid-cols-5 gap-[20px]">
+        <div className="w-[100%] h-[100%] grid grid-cols-5 lg:grid-cols-2  gap-[20px] sm:grid-cols-1 md:grid-cols-2">
           <PrayerCard
             title="Fajr"
             image={fajr}

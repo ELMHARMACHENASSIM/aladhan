@@ -1,25 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
 @layer components {
-    .Mycontainer {
-           @apply w-[80%] ms-auto me-auto ps-[20px] pe-[20px]
-    }
- 
+  .Mycontainer {
+    @apply w-[80%] sm:w-[90%] md:w-[90%] lg:w-[90%] xl:w-[95%] ms-auto me-auto ps-[20px] pe-[20px];
+  }
 }
-.po-ex {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .po-b {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  /* width */
+
+/* width */
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -37,4 +26,20 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.linear {
+  background: rgb(0,0,0);
+  background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 38%, rgba(0,0,0,0) 100%);
+}
+
+@layer base {
+  @font-face {
+    font-family: "po-l";
+    src: url('./assets/font/Poppins-Light.ttf');
+  }
+  @font-face {
+    font-family: "po-b";
+    src: url('./assets/font/Poppins-Bold.ttf');
+  }
 }
